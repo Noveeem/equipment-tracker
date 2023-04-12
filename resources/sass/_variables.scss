@@ -1,0 +1,24 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Poppins', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Custommize
+
+$aos: #fd630b;
+$night: #1c1c1c;
+$cloud: #f5f6fa;
+$table-hover-bg: #dfe6e9;
+$custom-colors: (
+    'aos': $aos,
+    'night': $night,
+    'cloud': $cloud,
+);
+
+$input-focus-box-shadow: $night;
+ 
+// Merge Colors
+$theme-colors: map-merge($theme-colors, $custom-colors);
